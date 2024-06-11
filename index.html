@@ -1,312 +1,212 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
-
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
-</head>
-<body>
-
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Statcounter tracking code -->
+<html><head>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" crossorigin="anonymous">
   
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <!-- CUSTOM STYLE CSS -->
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <!-- Page description -->   
+  
+  
+    <!-- Page keywords -->
+  
+  
+    <!-- Site title -->
+    
+    
+        <title>FLY-TTS: Fast, Lightweight and High-Quality End-to-End Text-to-Speech Synthesis</title>
+    
+   
+  </head>
+  <body style="position: relative; margin-top: 0pxpx !important;">
+  
+  
+    <section class="jumbotron text-center">
+  <div class="container">
+    
+        <h1 class="jumbotron-heading">FLY-TTS: Fast, Lightweight and High-Quality End-to-End Text-to-Speech Synthesis</h1>
+    
+    
+        <p class="lead">
+  
+            [<a href="">Paper</a>] [<a href="">Code</a>]
+        </p>
+        
+  
+  
+    
+  </div>
+  </section>
+    
+        <p><link rel="stylesheet" type="text/css" href="style.css"></p>
+  <div class="container">
+  <div class="row"><h2>Abstract</h2></div>
+  
+  <div class="row">
+    <p class="lead">
+  Recent advances in Text-to-Speech (TTS) synthesis have achieved significant improvements in high-quality speech synthesis. However, there is still room for improvement in terms of model efficiency and synthesis speed. In this paper, we propose FLY-TTS, a new Fast, Lightweight and high-qualitY speech synthesis system based on VITS. Specifically, 1) We propose to use the ConvNeXt blocks that directly generate Fourier spectral coefficients followed by the inverse short-time Fourier transform (ISTFT) to synthesize raw waveforms; 2) To compress the
+  model size, we introduce the grouped parameter-sharing mechanism to the text encoder and flow model; 3) We further employ large pre-trained WavLM model as discriminators, resulting in improved speech quality. Experimental results show that our model achieves a real-time factor of TODO on an TODO CPU, TODO times faster than the baseline system, and the parameters are compressed by TODO. Both objective and subjective evaluations demonstrate that FLY-TTS does not sacrifice speech quality but even has improved performance. 
+    </p>
+  </div>
+  
+  <div class="row"><h2>Demo</h2></div>
+  <div class="row">
+    <p class="lead">
+     This is an accompanying page and includes some examples of the synthesized speech obtained with the proposed and conventional methods.
+     The groundtruth audio clips are from the LJ speech dataset [1].  
+     These clips are not included in the training data. 
+    </p>
+  </div>
+  </div>
+  <p><br></p>
+  
+  <table style="table-layout: fixed;">
+    <thead>
+        <tr>
+            <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Model</th>
+            <th style="text-align: center">Text: He was in consequence put out of the protection of their internal law, end quote.<br> Their code was a subject of some curiosity.</th>
+            <th style="text-align: center">Text: Mr. Sturges Bourne, Sir James Mackintosh, Sir James Scarlett, and William <br> Wilberforce.</th>
+            <th style="text-align: center">Text: The fatal consequences where of might be prevented if the justices<br> of the peace were duly authorized</th>
+            <th style="text-align: center">Text: He was reported to have fallen away to a shadow.</th>
+  
+        </tr>
+    </thead>
+    <tbody>  
+  <tr>
+  <td style="vertical-align:middle" class="td_fixed">Ground truth</td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/gt/LJ003-0111.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/gt/LJ004-0045.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/gt/LJ004-0096.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/gt/LJ012-0161.wav">
+    </audio>
+  </td>
+  </tr>  
+  <tr>
+  <td style="vertical-align:middle" class="td_fixed">VITS [2]</td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/vits/LJ003-0111.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/vits/LJ004-0045.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/vits/LJ004-0096.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/vits/LJ012-0161.wav">
+    </audio>
+  </td>
+  </tr>  
+  </tr>
+  <tr>
+    <td style="vertical-align:middle" class="td_fixed">MB-iSTFT-VITS</td>
+    <td>
+        <audio controls="" preload="metadata" src="/media/mb_vits/LJ003-0111.wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="" preload="metadata" src="/media/mb_vits/LJ004-0045.wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="" preload="metadata" src="/media/mb_vits/LJ004-0096.wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="" preload="metadata" src="/media/mb_vits/LJ012-0161.wav">
+        </audio>
+      </td>  
+  <tr>
+  <td style="vertical-align:middle" class="td_fixed">FLY-TTS</td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/flytts/LJ003-0111.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/flytts/LJ004-0045.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/flytts/LJ004-0096.wav">
+    </audio>
+  </td>
+  <td>
+    <audio controls="" preload="metadata" src="/media/flytts/LJ012-0161.wav">
+    </audio>
+  </td> 
+  </tr>
+  <tr>
+    <td style="vertical-align:middle" class="td_fixed">Mini-FLY-TTS</td>
+    <td>
+        <audio controls="" preload="metadata" src="/media/Mini_flytts/LJ003-0111.wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="" preload="metadata" src="/media/Mini_flytts/LJ004-0045.wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="" preload="metadata" src="/media/Mini_flytts/LJ004-0096.wav">
+        </audio>
+      </td>
+      <td>
+        <audio controls="" preload="metadata" src="/media/Mini_flytts/LJ012-0161.wav">
+        </audio>
+      </td>
+  </tr>
+            </tbody>
+        </table>
+  
+  
+  <div class="container">
+  <h1>References</h1>
+  <div>
+    [1] K. Ito, "The LJ speech dataset", <a href="https://keithito.com/LJ-Speech-Dataset/">https://keithito.com/LJ-Speech-Dataset/</a>, 2017.
+    <br>
+    [2] J. Kim, J. Kong, J. Son, "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech," in <em>Proc. ICML</em>, 2021, pp. 5530-5540.
+    [3] Kawamura, Masaya et al, “Lightweight and High-Fidelity End-to-End Text-to-Speech with Multi-Band Generation and Inverse Short-Time Fourier Transform,” in <em>ICASSP</em>, 2023. 
+    
+  
+  </div>
+  </div>
+    
+  
+  
+  <div style="position: static; display: none; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;"><div id="trans-tooltip"><div id="tip-left-top" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-left-top.png&quot;);"></div><div id="tip-top" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-top.png&quot;) repeat-x;"></div><div id="tip-right-top" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-right-top.png&quot;);"></div><div id="tip-right" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-right.png&quot;) repeat-y;"></div><div id="tip-right-bottom" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-right-bottom.png&quot;);"></div><div id="tip-bottom" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-bottom.png&quot;) repeat-x;"></div><div id="tip-left-bottom" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-left-bottom.png&quot;);"></div><div id="tip-left" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-left.png&quot;);"></div><div id="trans-content"></div></div><div id="tip-arrow-bottom" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-arrow-bottom.png&quot;);"></div><div id="tip-arrow-top" style="background: url(&quot;chrome-extension://jpjgjbbhaifmiigkopmnpbgcgmigaame/imgs/map/tip-arrow-top.png&quot;);"></div></div></body><div style="position: absolute; top: 0px; right: 0px; width: 100%; z-index: 2147483647;"><style>
+    @font-face {
+        font-family: "cicons";
+        font-weight: 400;
+        font-style: normal;
+        src: url(chrome-extension://doepmkblfggigkpkciffgdgjgecafbmc/assets/font/cicon_43e43c5.woff) format("woff"),
+            url(chrome-extension://doepmkblfggigkpkciffgdgjgecafbmc/assets/font/cicon_ab43222.svg?#cicons) format("svg");
+    }
+  
+    @font-face {
+        font-family: "cosmicIcon";
+        font-weight: 400;
+        font-style: normal;
+        src: url(chrome-extension://doepmkblfggigkpkciffgdgjgecafbmc/assets/font/cicon_43e43c5.woff) format("woff"),
+            url(chrome-extension://doepmkblfggigkpkciffgdgjgecafbmc/assets/font/cicon_ab43222.svg?#cicons) format("svg");
+    }</style></div></html>
