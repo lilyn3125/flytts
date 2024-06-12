@@ -53,8 +53,12 @@
   
   <div class="row">
     <p class="lead">
-  Recent advances in Text-to-Speech (TTS) synthesis have achieved significant improvements in high-quality speech synthesis. However, there is still room for improvement in terms of model efficiency and synthesis speed. In this paper, we propose FLY-TTS, a new Fast, Lightweight and high-qualitY speech synthesis system based on VITS. Specifically, 1) We propose to use the ConvNeXt blocks that directly generate Fourier spectral coefficients followed by the inverse short-time Fourier transform (ISTFT) to synthesize raw waveforms; 2) To compress the
-  model size, we introduce the grouped parameter-sharing mechanism to the text encoder and flow model; 3) We further employ large pre-trained WavLM model as discriminators, resulting in improved speech quality. Experimental results show that our model achieves a real-time factor of TODO on an TODO CPU, TODO times faster than the baseline system, and the parameters are compressed by TODO. Both objective and subjective evaluations demonstrate that FLY-TTS does not sacrifice speech quality but even has improved performance. 
+      While recent advances in Text-To-Speech synthesis have yielded remarkable improvements in generating high-quality speech, research on lightweight and fast models is limited.    This paper introduces FLY-TTS, a new fast, lightweight and high-quality speech synthesis system based on VITS.
+      Specifically, 1) We replace the decoder with ConvNeXt blocks that generate Fourier spectral coefficients followed by the inverse short-time Fourier transform to synthesize waveforms;
+      2) To compress the model size, we introduce the grouped parameter-sharing mechanism to the text encoder and flow-based model;
+      3) We further employ the large pre-trained WavLM model for adversarial training to improve synthesis quality.
+      Experimental results show that our model achieves a real-time factor of 0.0139 on an Intel Core i9 CPU, 8.8x faster than the baseline (0.1221), with a 1.6x parameter compression.
+      Objective and subjective evaluations indicate that FLY-TTS exhibits comparable speech quality to the strong baseline.\footnote{To ensure author anonymity, the link to the audio demo page will be added after the review process.}
     </p>
   </div>
   
